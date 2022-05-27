@@ -332,4 +332,5 @@ nav > ul > li {
 
 .contact > div > img {
     width: 20px;
+    cursor: pointer;
 }
