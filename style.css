@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Nav */
+.header {
+    position: relative;
+}
+
+.header_background {
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    background-color: #a3cb38;
+    z-index: -1;
+    left: 55%;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    padding-left: 10rem;
+}
+
+nav > ul > li {
+    margin-right: 5.78rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Rachel Green */
+.rachel_green {
+    margin-top: 10rem;
+    padding: 0 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rachel_green > .green_text {
+    line-height: 5.5rem;
+}
+
+.rachel_green > .green_text > h1 {
+    font-size: 50px;
+}
+
+.rachel_green > .green_text > p {
+    width: 33rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.rachel_green > .green_text > button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #a3cb38;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Hustle */
+.hustle {
+    position: relative;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.hustle > img {
+    position: absolute;
+    z-index: -1;
+}
+
+.hustle > .hustle_divs {
+    padding: 0 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.hustle > .hustle_divs > h1 {
+    font-size: 80px;
+    font-weight: bold;
+    width: 200px;
+    letter-spacing: 0.1rem;
+}
+
+.hustle > .hustle_divs > .hustle_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 35rem;
+}
+
+.hustle > .hustle_divs > .hustle_content > .hustle_description > h3 {
+    color: #a3cb38;
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+.hustle > .hustle_divs > .hustle_content > .hustle_description > h4 {
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.hustle > .hustle_divs > .hustle_content > .hustle_description > p {
+    font-weight: 500;
+}
+
+/* Work */
+.work {
+    margin-top: 5rem;
+    padding: 0 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.work > p {
+    padding-top: 5rem;
+    width: 45rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.work_grid {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7rem;
+    width: 100%;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_details {
+    position: relative;
+}
+
+.grid_details > .work_background {
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    background-color: #a3cb38;
+    /* z-index: -1; */
+    left: 3%;
+    top: -8%;
+}
+
+.grid_project > .grid_description {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.grid_description > h3:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.grid_description > p {
+    line-height: 1.5rem;
+    font-weight: 500;
+    width: 230px;
+    font-size: 14px;
+}
+
+.grid_description > h3:last-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a3cb38;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
+
+/* Proud */
+.proud {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-left: 7rem;
+}
+
+.proud_heading {
+    background-color: #a3cb38;
+    padding-left: 5rem;
+    padding-right: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 20rem;
+    /* height: 20rem; */
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.proud_details {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    width: 100%;
+    padding-right: 20rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.proud_description > div {
+    position: absolute;
+    background-color: #a3cb38;
+    width: 30px;
+    height: 3px;
+}
+
+.proud_description > p {
+    margin-top: 0.8rem;
+    width: 260px;
+    font-weight: 500;
+}
+
+/* Side Hustle */
+.side_hustle {
+    margin-top: 15rem;
+    padding: 0 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
+.hustle_heading > h1 {
+    font-size: 80px;
+    font-weight: bold;
+    width: 200px;
+    letter-spacing: 0.1rem;
+    color: #a3cb38;
+}
+
+.hustle_heading > p {
+    padding-top: 1.5rem;
+    width: 400px;
+}
+
+.hustle_gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hustle_gallery > .top_gallery {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hustle_gallery > .bottom_gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7rem;
+}
+
+.footer > div:last-child {
+    margin-top: 8rem;
+}
+
+.contact {
+    background-color: #a3cb38;
+    padding: 4rem 7rem;
+    width: 35rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.contact > a {
+    color: white;
+}
+
+.contact > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contact > div > img {
+    width: 20px;
+}
